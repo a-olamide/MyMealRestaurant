@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMealRestaurant", "MyMealRestaurant\MyMealRestaurant.csproj", "{81122B34-A853-4B8E-9410-EB18A9F018C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMealRestaurantContract", "MyMealRestaurantContract\MyMealRestaurantContract.csproj", "{2BC830B4-EB8B-42FB-AA8B-1C7548DD4687}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requests", "Requests", "{720F11A7-4839-4D18-863D-B8083E06EA66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyMeal", "MyMeal", "{CEB766B3-FD6B-48CD-A60E-469837422015}"
+	ProjectSection(SolutionItems) = preProject
+		CreateMeal.http = CreateMeal.http
+		DeleteMeal.http = DeleteMeal.http
+		GetMeal.http = GetMeal.http
+		UpsertMeal.http = UpsertMeal.http
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMealRestaurant.Tests", "MyMealRestaurant.Tests\MyMealRestaurant.Tests.csproj", "{8D649076-4010-4437-8564-11CE4B296F04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81122B34-A853-4B8E-9410-EB18A9F018C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81122B34-A853-4B8E-9410-EB18A9F018C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81122B34-A853-4B8E-9410-EB18A9F018C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81122B34-A853-4B8E-9410-EB18A9F018C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC830B4-EB8B-42FB-AA8B-1C7548DD4687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC830B4-EB8B-42FB-AA8B-1C7548DD4687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC830B4-EB8B-42FB-AA8B-1C7548DD4687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC830B4-EB8B-42FB-AA8B-1C7548DD4687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D649076-4010-4437-8564-11CE4B296F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D649076-4010-4437-8564-11CE4B296F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D649076-4010-4437-8564-11CE4B296F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D649076-4010-4437-8564-11CE4B296F04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEB766B3-FD6B-48CD-A60E-469837422015} = {720F11A7-4839-4D18-863D-B8083E06EA66}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04AB7DE2-6D7B-479A-BA9D-5A88200FCE40}
+	EndGlobalSection
+EndGlobal
